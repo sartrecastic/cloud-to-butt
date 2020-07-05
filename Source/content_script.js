@@ -47,7 +47,7 @@ function handleText(textNode)
 	v = v.replace(/\bglobalist\b/g, "woke member of society");
 	v = v.replace(/\bAlex Jones\b/g, "Basically Satan");
 	v = v.replace(/\beducation\b/g, "state-run propaganda machine");
-	v = v.replace(/\bTrump\b/g, "*Hitler");
+	v = v.replace(/\bTrump\b/g, "Hitler");
 	v = v.replace(/\bsavage\b/g, "Native American");
 	v = v.replace(/\bcoronavirus\b/g, " ");
 	v = v.replace(/\bcovid\b/g, " ");
@@ -77,9 +77,16 @@ function handleText(textNode)
 	v = v.replace(/\bmansplain\b/g, "*literally* murder");
 	v = v.replace(/\blooting\b/g, "justice");
 	v = v.replace(/\bscience\b/g, "oppressive thoughts");
+	v = v.replace(/\bScience\b/g, "Outdated norms");
 	v = v.replace(/\bSJW\b/g, "freedom fighter");
 	v = v.replace(/\bterrorism\b/g, " ");
-
+	v = v.replace(/\bcancelled\b/g, "liberated");
+	v = v.replace(/\bCOVID\b/g, " ");
+	v = v.replace(/\bCOVID-19\b/g, " ");
+	v = v.replace(/\bepidemic\b/g, " ");
+	v = v.replace(/\bFox News\b/g, "Infowars");
+	v = v.replace(/\bRepublican\b/g, "Third Riech");
+	
 	textNode.nodeValue = v;
 }
 
